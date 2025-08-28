@@ -10,7 +10,7 @@ const memberRouter = require("./routes/member");
 const announcementRouter = require("./routes/announcements");
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://at-frontend.vercel.app/",
   credentials: true
 }));
 
